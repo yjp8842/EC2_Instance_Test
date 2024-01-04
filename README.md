@@ -1,7 +1,6 @@
 ### EC2_Instance_Test
 
 <hr>
-<br>
 
 #### T계열 인스턴스 성능 측정
 
