@@ -3,13 +3,17 @@
 <hr>
 <br>
 
-T계열 인스턴스 성능 측정
+#### T계열 인스턴스 성능 측정
 
 - small
   - t2.small
   - t3.small
   - t3a.small
   - t4.small
+
+<br>
+
+#### 테스트 코드
 
 ```python
 from flask import Flask
@@ -83,6 +87,7 @@ def hello_world():
 
     # 결과들을 HTML 개행으로 구분하여 반환
     return '<br><br>'.join(results)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
 ```
@@ -91,7 +96,7 @@ if __name__ == '__main__':
 
 ### 테스트 결과
 
-- t2.small = 3.025712490081787 seconds
-- t3.small = 2.4270567893981934 seconds
-- t3a.small = 2.573723316192627 seconds
-- t4g.small = 1.0078325271606445 seconds
+- #### t2.small = 3.025712490081787 seconds
+- #### t3.small = 2.4270567893981934 seconds
+- #### t3a.small = 2.573723316192627 seconds
+- #### t4g.small = 1.0078325271606445 seconds
