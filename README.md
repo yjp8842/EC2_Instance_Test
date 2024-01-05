@@ -95,10 +95,12 @@ if __name__ == '__main__':
 
 ### 테스트 결과
 
-- #### t2.small = 3.025712490081787 seconds
-- #### t3.small = 2.4270567893981934 seconds
-- #### t3a.small = 2.573723316192627 seconds
-- #### t4g.small = 1.0078325271606445 seconds
+|인스턴스 유형|시간 측정 결과|
+|------|---|
+|t2.small|3.025712490081787 seconds|
+|t3.small|2.4270567893981934 seconds|
+|t3a.small|2.573723316192627 seconds|
+|t4g.small|1.0078325271606445 seconds|
 
 <br>
 
